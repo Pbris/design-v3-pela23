@@ -1,9 +1,9 @@
 ---
-Title: Home
+Title: Peter
 Description: This is our index page.
 ---
 
-Home page
+Peter
 ==========================
 
 Jag heter Peter och utbildar mig till webbprogrammerare. Under uppväxten bodde jag i Ronneby, och spenderade bl.a. tid på umgänge med kompisar, musicerande, innebandy samt datorer. Datorintresse väcktes tidigt, och datorspel spelades flitigt med vänner och familjemedlemmar. Ofta i form av LAN, vilka avverkades ett flertal under den tiden i goda vänners lag. Även byggande av datorer och optimerande av dessa var ett intresse som delvis hängt med, idag med mer vikt på mjukvara.
