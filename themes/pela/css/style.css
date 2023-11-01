@@ -9,6 +9,10 @@ body {
     background-color: pink;
 }
 
+.body, .img {
+    height: 10%;
+}
+
 ol, ul {
     padding-left: 1.5em;
 }
@@ -78,7 +82,7 @@ body {
     border-bottom: 4px solid #ff00ff;
 }
 
-/* main fr föreläsning*/
+/* main */
 
 .main {
     width: 80%;
