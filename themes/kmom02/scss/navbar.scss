@@ -1,0 +1,8 @@
+.nav a {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    border-bottom: 4px solid $border-bottom-color;
+}
