@@ -6451,6 +6451,8 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   background-color: #ffc0cb;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -6474,9 +6476,14 @@ img {
   font-style: italic;
 }
 
+html, body {
+  height: 100%;
+}
+
 .main {
   width: 60%;
   margin: 0 auto;
+  flex: 1 0 auto;
 }
 
 p {
@@ -6487,7 +6494,7 @@ p {
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 4px solid #ff00ff;
+  border-top: 4px solid #f0f;
   background-color: #222;
   color: #fff;
   padding: 4rem 6rem;
@@ -6519,7 +6526,7 @@ p {
 }
 
 .nav a:hover {
-  border-bottom: 4px solid #ff00ff;
+  border-bottom: 4px solid #f0f;
 }
 
 blockquote {

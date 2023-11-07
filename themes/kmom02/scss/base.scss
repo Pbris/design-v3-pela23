@@ -1,5 +1,7 @@
 body {
     background-color: $background-color;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
@@ -23,9 +25,14 @@ img {
     font-style: italic;
 }
 
+html, body {
+    height: 100%;
+}
+
 .main {
     width: 60%;
     margin: 0 auto;
+    flex: 1 0 auto;
 }
 
 p {
