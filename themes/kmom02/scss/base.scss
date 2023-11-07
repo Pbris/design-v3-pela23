@@ -1,0 +1,52 @@
+body {
+    background-color: $background-color;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title, .logo {
+    padding: 3em 3em 3em 0;
+}
+
+.title * {
+    color: #000;
+}
+
+.title p {
+    font-style: italic;
+}
+
+.main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+p {
+    margin-bottom: 1.4rem;
+    font-size: 1.1em;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 4px solid $border-bottom-color;
+    background-color: $footer-background-color;
+    color: #fff;
+    padding: 4rem 6rem;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
