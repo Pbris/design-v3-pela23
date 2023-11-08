@@ -6476,6 +6476,10 @@ img {
   font-style: italic;
 }
 
+.hidden {
+  display: none !important;
+}
+
 html, body {
   height: 100%;
 }
@@ -6507,6 +6511,7 @@ p {
 
 .footer .social {
   font-size: 2rem;
+  padding-top: 1em;
 }
 
 @media (max-width: 767px) {
