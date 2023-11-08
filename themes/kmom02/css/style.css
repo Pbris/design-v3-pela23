@@ -6471,8 +6471,7 @@ img {
 .title * {
   color: #000;
 }
-
-.title p {
+.title * p {
   font-style: italic;
 }
 
@@ -6503,15 +6502,12 @@ p {
   color: #fff;
   padding: 4rem 6rem;
 }
-
 .footer a {
   color: #fff;
   text-decoration: none;
 }
-
 .footer .social {
   font-size: 2rem;
-  padding-top: 1em;
 }
 
 @media (max-width: 767px) {
