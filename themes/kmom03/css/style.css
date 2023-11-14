@@ -6564,3 +6564,18 @@ pre code {
   overflow-x: auto;
   line-height: 1.4;
 }
+
+/* technology.scss */
+.landingpage {
+  display: grid;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
