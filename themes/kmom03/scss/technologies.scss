@@ -1,0 +1,14 @@
+/* technology.scss */
+.landingpage {
+    display: grid;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.landingpage {
+    display: grid;
+    gap: 1em 1em;
+}
