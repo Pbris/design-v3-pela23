@@ -13,18 +13,19 @@
 }
 
 @media screen and (max-width: 960px) {
-    .landingpage {
+    .landingpage,
+    .landingpage h1 {
         grid-gap: 5px;
-        grid-template-columns: auto;
-        grid-column: 1;
+        grid-column: 1 !important;
     }
-    
+
     .box,
     .box-2-right,
+    .box-2-left,
     .box-full {
         border: 1px solid #fff;
         padding: 1rem; 
-        grid-column: 1 / 1 !important;
+        grid-column: 1 !important;
     }
 
     .tech-menu {
