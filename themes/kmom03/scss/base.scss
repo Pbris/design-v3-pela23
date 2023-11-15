@@ -49,12 +49,12 @@ p {
     justify-content: space-between;
     border-top: 4px solid $border-bottom-color;
     background-color: $footer-background-color;
-    color: #fff;
+    color:  $font-alternative-color;
     padding: 4rem 6rem;
 
 
     a {
-        color: #fff;
+        color: $font-alternative-color;
         text-decoration: none;
     }
 
