@@ -9,4 +9,12 @@ Social:
       - title: Länk till facebook.com.
         url: https://facebook.com
         icon: fab fa-facebook
+      
+      - title: Dark Mode
+        url: ?action=theme
+        icon: fas fa-moon
+        
+      - title: Destroy Session
+        url: ?action=session_destroy
+        icon: fas fa-trash-alt
 ---
