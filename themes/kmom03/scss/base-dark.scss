@@ -13,14 +13,12 @@ img {
     justify-content: space-between;
 }
 
-.logo img {
-    border-top: 4px solid $border-bottom-color;
-    border-right: 4px solid $border-bottom-color;
-    border-bottom: 4px solid $border-bottom-color;
-}
-
 .title, .logo {
     padding: 3em 3em 3em 0;
+}
+
+.logo {
+    filter: invert(100%);
 }
 
 .title * {
