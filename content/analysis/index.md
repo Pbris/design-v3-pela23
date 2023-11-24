@@ -79,6 +79,7 @@ Det här liknar inget färgschema, möjligtvis ett triadiskt, där den tredje f�
 ### Typsnitt:
 * H1-H2:Exo 2, ett typsnitt i sans-serif. H3 används ej.
 * Brödtext:  Exo 2
+
 ### Profil:
 Profil: Webbplatsens färgval och typografi inger trygghet och harmoni, vilket kan anses vara värden som ett bokföringsföretag vill ge.
 
