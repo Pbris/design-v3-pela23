@@ -1,5 +1,5 @@
 ---
-Title: Test
+Title:
 Description: This is our test page.
 ---
 
