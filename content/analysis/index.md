@@ -75,7 +75,7 @@ Webbplatsen har i färgval och typografi troligen en ambition att signalera enke
 </figure>
 
 ### Färgschema:
-Det här liknar inget färgschema, möjligtvis ett triadiskt, där den tredje färgen blivit nedtonad.
+Det här liknar inget färgschema, möjligtvis ett monokromatiskt.
 ### Typsnitt:
 * H1-H2:Exo 2, ett typsnitt i sans-serif. H3 används ej.
 * Brödtext:  Exo 2
