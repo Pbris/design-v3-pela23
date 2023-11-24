@@ -1,5 +1,7 @@
 p {
     font-family: $main-font;
+    margin-bottom: 1.75rem;
+    font-size: 1.25em;
 }
 
 h1,
@@ -18,9 +20,11 @@ p, td, th, li, dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
+    margin-bottom: 1.75rem;
 }
