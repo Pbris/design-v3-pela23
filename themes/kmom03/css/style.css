@@ -6464,12 +6464,11 @@ img {
   justify-content: space-between;
 }
 
-.logo img {
-  border-top: 4px solid #662E37;
-  border-right: 4px solid #662E37;
-  border-bottom: 4px solid #662E37;
-}
-
+/* .logo img {
+    border-top: 4px solid $border-bottom-color;
+    border-right: 4px solid $border-bottom-color;
+    border-bottom: 4px solid $border-bottom-color;
+} */
 .title, .logo {
   padding: 3em 3em 3em 0;
 }
@@ -6520,6 +6519,58 @@ a {
   font-size: 2rem;
 }
 
+.slide {
+  overflow-y: hidden !important;
+  transition: height 0.5s ease-in !important;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em 0;
+  list-style: none;
+}
+
+.nav ul li {
+  padding: 0 1em;
+}
+
+.nav a, .nav-toggle {
+  color: #333;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .header {
+    flex-direction: column;
+  }
+  .nav ul {
+    flex-direction: column;
+    padding-bottom: 1em;
+  }
+  .nav ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav ul li a {
+    display: block;
+    padding: 0.5em 0;
+  }
+  .js .nav-toggle {
+    display: block;
+    float: right;
+    width: 2em;
+    margin: 0.6667em 0;
+    font-size: 1.5rem;
+    line-height: 2em;
+    text-align: center;
+    cursor: pointer;
+  }
+}
 @media (max-width: 767px) {
   .title, .logo {
     padding: 1em 1em 1em 0;
