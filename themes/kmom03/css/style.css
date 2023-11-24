@@ -6424,6 +6424,8 @@ template {
 
 p {
   font-family: "Source Sans 3", sans-serif;
+  margin-bottom: 1.75rem;
+  font-size: 1.25em;
 }
 
 h1,
@@ -6447,6 +6449,7 @@ p, td, th, li, dd {
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
+  margin-bottom: 1.75rem;
 }
 
 body {
@@ -6543,7 +6546,7 @@ a {
   display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1065px) {
   .header {
     flex-direction: column;
   }
