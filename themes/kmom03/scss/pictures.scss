@@ -1,0 +1,51 @@
+//Pictures
+
+.landingpage {
+    display: grid;
+    grid-column: span 3;
+    gap: 1em 1em;
+    padding: 1rem;
+}
+
+.landingpage h1 {
+
+    grid-column: 1 / 4;
+    justify-self: center;
+}
+
+@mixin box-styles() {
+    border: 1px solid $border-bottom-color;
+    padding: 1rem;
+}
+
+.box1 {
+    @include box-styles;
+    grid-column: 1 / 2;
+}
+
+.box2 {
+    @include box-styles;
+    grid-column: 2 / 3;
+}
+
+.box3 {
+    @include box-styles;
+    grid-column: 3 / 4;
+}
+
+//Technology
+
+.single-technology {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.tech-menu {
+    width: 30%;
+}
+
+.tech-content {
+    width: 60%;
+}

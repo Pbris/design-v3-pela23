@@ -84,6 +84,14 @@
         grid-column: 1 !important;
     }
 
+    .box1,
+    .box2,
+    .box3 {
+        border: 1px solid $border-bottom-color;
+        padding: 1rem; 
+        grid-column: 1 !important;
+    }
+
     .tech-menu {
         display: none;
     }
