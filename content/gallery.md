@@ -12,30 +12,52 @@ Galleri
 <div class="box1">
     <a href="%base_url%/image/Ugglor/1.jpg" target="_blank">
     <picture>
-        <source media="(min-width: 668px)" srcset="image/Ugglor/1.jpg?width=50%&q=50">
-        <img src="image/Ugglor/1.jpg?w=375" alt="sheep">
+        <source media="(min-width: 960px)" srcset="%base_url%/image/Ugglor/1.jpg?width=275&q=50">
+        <img src="%base_url%/image/Ugglor/1.jpg?width=480&q=50" alt="owl">
     </picture>
 </div>
 
 <div class="box2">
     <a href="%base_url%/image/Ugglor/2.jpg" target="_blank">
-    <img src="%base_url%/image/Ugglor/2.jpg?width=50%&q=50">
+    <picture>
+        <source media="(min-width: 960px)" srcset="%base_url%/image/Ugglor/2.jpg?width=275&q=50">
+        <img src="%base_url%/image/Ugglor/2.jpg?width=480&q=50" alt="owl">
+    </picture>
 </div>
 
 <div class="box3">
-    <img src="%base_url%/image/Ugglor/3.jpg?width=50%&q=50">
+    <a href="%base_url%/image/Ugglor/3.jpg" target="_blank">
+    <picture>
+        <source media="(min-width: 960px)" srcset="%base_url%/image/Ugglor/3.jpg?width=275&q=50">
+        <img src="%base_url%/image/Ugglor/3.jpg?width=480&q=50" alt="owl">
+    </picture>
 </div>
 
-<div class="box">
-    <img src="%base_url%/image/Ugglor/4.jpg?width=50%&q=50">
+<div class="box1">
+    <a href="%base_url%/image/Ugglor/4.jpg" target="_blank">
+    <picture>
+        <source media="(min-width: 960px)" srcset="%base_url%/image/Ugglor/4.jpg?width=275&q=50">
+        <img src="%base_url%/image/Ugglor/4.jpg?width=480&q=50" alt="owl">
+    </picture>
 </div>
 
 <div class="box2">
-    <img src="%base_url%/image/Ugglor/5.jpg?width=50%&q=50">
+    <a href="%base_url%/image/Ugglor/5.jpg" target="_blank">
+    <picture>
+        <source media="(min-width: 960px)" srcset="%base_url%/image/Ugglor/5.jpg?width=275&q=50">
+        <img src="%base_url%/image/Ugglor/5.jpg?width=480&q=50" alt="owl">
+    </picture>
 </div>
 
 <div class="box3">
-    <img src="%base_url%/image/Ugglor/6.jpg?width=50%&q=50">
+    <a href="%base_url%/image/Ugglor/6.jpg" target="_blank">
+    <picture>
+        <source media="(min-width: 960px)" srcset="%base_url%/image/Ugglor/6.jpg?width=275&q=50">
+        <img src="%base_url%/image/Ugglor/6.jpg?width=480&q=50" alt="owl">
+    </picture>
 </div>
 
+<div class="embed-container">
+    <iframe src="https://www.youtube.com/embed/gCwjLPBqpa0" frameborder="0" allowfullscreen></iframe>
+</div>
 </div>
