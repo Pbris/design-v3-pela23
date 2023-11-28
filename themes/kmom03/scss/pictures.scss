@@ -13,6 +13,15 @@
     justify-self: center;
 }
 
+.landingpage source {
+    width: 45%;
+}
+
+.landingpage img,
+.landingpage source {
+    width: 100%;
+}
+
 @mixin box-styles() {
     border: 1px solid $border-bottom-color;
     padding: 1rem;
@@ -31,21 +40,4 @@
 .box3 {
     @include box-styles;
     grid-column: 3 / 4;
-}
-
-//Technology
-
-.single-technology {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.tech-menu {
-    width: 30%;
-}
-
-.tech-content {
-    width: 60%;
 }
