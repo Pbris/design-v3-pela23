@@ -1,7 +1,6 @@
 ---
 Title: Gallery
 Description: This is my gallery page.
-Template: pictures
 ---
 
 Galleri
@@ -58,6 +57,6 @@ Galleri
 </div>
 
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/gCwjLPBqpa0" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/vZDjWLwqAPY" frameborder="0" allowfullscreen></iframe>
 </div>
 </div>
