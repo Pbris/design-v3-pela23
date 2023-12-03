@@ -1,125 +1,106 @@
 ---
-Title: Report
-Description: This is my report page.
+Title: Laddningstider
+Description: En genomgång av tre webbplatsers laddningstid och användbarhet.
 ---
 
-# Färgval och typografi på webbplatser
+
+# Webbplatsers laddningstid och användbarhet
 ## En genomgång av tre webbplatser
-*Detta är en rapport för en uppgift i kursen Design på BTH. Uppgiften går ut på att gå igenom tre webbplatser med avseende på färgval och typografi samt hur dessa val påverkar hur webbplatsen upplevs.*
+*Detta är en rapport för en uppgift i kursen Design på BTH. Uppgiften går ut på att gå igenom tre webbplatser med avseende på deras laddningstid samt huruvida det finns förbättringsområden angående laddningstid och användbarhet.*
 # Urval - valda webbplatser
-Urvalet gjordes i en kategori av företags webbplatser som författarna identifierade som webbplatser där digitaliseringen varit en förutsättning för affärsidén. Kategorin valdes då författarna har ett intresse för företag som baseras på digitala tjänster, och för digitalisering och effektivisering av administrativa uppgifter, ett område där dessa aktörer verkar. I avgränsningen av tre webbplatser i kategorin valdes ett stort internationellt företag, ett stort nationellt företag, samt ett företag i kategorin med en mer uttalat hållbar och medbestämmande profil.
-Följande webbplatser undersöks:
-* https://www.xero.com/ : Internationellt företag med bokföringstjänst som siktar på att vara en verktygslåda för små och medelstora företag.
-* https://www.fortnox.se/ : Svensk bokföringstjänst som rönt stora framgångar de senaste tio åren.
-* https://beetroot.se/ : Svenskt-ukrainskt konsultföretag som främst tillhandahåller mjukvarulösningar.
+Urvalet gjordes i en kategori webbplatser som identifierats som som personsidor av författarna.
+I avgränsningen av tre webbplatser i kategorin valdes en amerikansk internationell kvinnlig artist, en svensk manlig skådespelare och regissör, samt en svensk kvinnlig f.d. idrottare.
+Följande webbplatser undersöks, i ovan nämnda ordning:
+* https://www.taylorswift.com/
+* https://www.johanrheborg.se/
+* https://charlotte-kalla.se/
+
 
 # Metod
-
-För att undersöka färger görs följande:
+För att undersöka sidornas prestanda med avseende på laddningstider och användbarhet görs följande:
 * Tar screenshot på webbplatsen.
-* Gör en färproportionsanalys med Geotests [5].
-* Plockar ut färgerna till en färgpalett (eget urval från webbplatserna, där vi väljer de färger som ser ut att vara mest representativa) med en color-picker, Adobe Color [1].
-*Sätter färgerna från paletten i ett färghjul med Adobe Color.
-Beskriver färgens funktion på webbplatsen (textfärg, alternativ textfärg, bakgrundsfärg, alternativ bakgrundsfärg, accent-färg)
-*Jämför färgerna och dess position i färghjulet mot olika typer av färgscheman (egna uppskattningar) och identifierar vilka färgscheman det liknar, om något.
+* Gör mätningar av laddningstid, antal resurser som laddas samt sidans storlek med hjälp av Chrome DevTools samt Google Pagespeed [2].
+** I Google PageSpeed görs tre mätningar i läget “Mobile” och “Desktop”. Genomsnittliga betyget för prestanda används. Betygen tolkas som bra om resultatet är över 90, medel / ok om resultatet är mellan 50 och 90, och dåligt om resultatet är under 50.
+** I Chrome DevTools görs tre mätningar för inläsningstid, tiden det tar för DOM-content att laddas, totala sidans storlek samt antal resurser som laddas från webbplatsen. Cache inaktiveras för att få sidans totala storlek.
+* För webbplatser med mer än en sida, testas tre sidor på samma sätt.
+* Resultaten sammanställs i en tabell, och bifogas i rapporten som ett inbäddat kalkylark.
+* För att ge förbättringsförslag på varje webbplats används Google PageSpeed Insights och mätningarna görs för mobil-läge. De 3 största förbättringsförslagen nämns i resultatet. Dessa mätningar görs bara en gång per sida då syftet främst är att få en fingervisning om hur webbplatsen kan förbättras.
 
-De färgscheman som färgpaletten jämförs mot är monokromatiskt, komplementärt, triadiskt och analogt. Vi utgår från färghjul i Adobe Color i vår bedömning.
+
+Exempel från mätning av [johanrheborg.se](www.johanrheborg.se):
+
 
 <figure>
-<img src="%assets_url%/img/colors/image9.png" title="Färgscheman (2023)">
-<figcaption>Figur 1: Analogt, monokromatiskt, triadiskt och komplementärt färgschema.
-Hämtad från [1]</figcaption>  
+<img src="%base_url%/image/laddningstider/dev_tools.png" title="Screenshot på Google Chrome's DevTools">
+<figcaption>Figur 1: Resultat från en mätning av prestanda med avseende på nätverkstrafik och en webbplats rendering med hjälp av Google Chrome's DevTools</figcaption> 
 </figure>
-För typsnitt:
-* Sidornas rubriker och brödtext inspekteras med Inspect-funktionalitet i webbläsaren.
+
+
+<figure>
+<img src="%base_url%/image/laddningstider/page_speed.png" title="Page Speed mätning">
+<figcaption>Figur 2: Page Speed mätning från Google Page Speed som visar på en webbplats prestanda.
+Hämtad från [1]</figcaption> 
+</figure>
+
 
 # Resultat
-## Xero
-
-<figure>
-<img src="%assets_url%/img/colors/image2.png" title="Screenshot Xero.com (2023)">
-<figcaption>Screenshot Xero.com (2023)[4]</figcaption>  
-</figure>
-<figure>
-<img src="%assets_url%/img/colors/image10.png" title="Färghjul med palett">
-<figcaption>Färghjul med palett</figcaption>
-</figure>
-<figure>
-<img src="%assets_url%/img/colors/image3.png" title="Färgproportiion">
-<figcaption>Färgproportion</figcaption>
-</figure>
-
-### Färgschema:
-Det här liknar främst ett monokromatiskt färgschema, med undantag från den gröna färgen.
-### Typsnitt:
-* H1-H3:
-National 2 (sans-serif)|
-* Brödtext:
-National 2 (sans-serif)|
-### Profil:
-Webbplatsen har i färgval och typografi troligen en ambition att signalera enkelhet och säkerhet, med sin i majoritet vita och blåa layout ges en viss klinisk känsla som också uppfyller dessa signaler.
+Resultatet av mätningarna framgår av det inbäddade kalylarket nedan. Det ska poängteras att sidorna för Taylor Swift och Charlotte Kalla enbart består av en sida, det har alltså inte varit möjligt att mäta tre sidor på dessa, utan endas startsidan har mäts.
 
 
-## Fortnox
-<figure>
-<img src="%assets_url%/img/colors/image5.png" title="Screenshot Fortnox.se (2023)">
-<figcaption>Screenshot Fortnox.se (2023)[3]</figcaption>  
-</figure>
-<figure>
-<img src="%assets_url%/img/colors/image7.png" title="Färghjul med palett">
-<figcaption>Färghjul med palett</figcaption>
-</figure>
-<figure>
-<img src="%assets_url%/img/colors/image4.png" title="Färgproportiion">
-<figcaption>Färgproportion</figcaption>
-</figure>
-
-### Färgschema:
-Det här liknar inget färgschema, möjligtvis ett monokromatiskt.
-### Typsnitt:
-* H1-H2:Exo 2, ett typsnitt i sans-serif. H3 används ej.
-* Brödtext:  Exo 2
-
-### Profil:
-Profil: Webbplatsens färgval och typografi inger trygghet och harmoni, vilket kan anses vara värden som ett bokföringsföretag vill ge.
+<iframe class='aspect-ratio-16-9' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTDd8MHKqMECdiXQafknjgWjQW27wB-s9Nz7d-72J1gxAtzN4CRHrWgcUrzxESe3jjY29npFF-AvGkS/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 
-
-## Beetroot
+## Taylor Swift
 <figure>
-<img src="%assets_url%/img/colors/image8.png" title="Screenshot Beetroot.se (2023)">
-<figcaption>Screenshot Beetroot.se (2023)[2]</figcaption>  
-</figure>
-<figure>
-<img src="%assets_url%/img/colors/image1.png" title="Färghjul med palett">
-<figcaption>Färghjul med palett</figcaption>
-</figure>
-<figure>
-<img src="%assets_url%/img/colors/image6.png" title="Färgproportiion">
-<figcaption>Färgproportion</figcaption>
+<img src="%base_url%/image/laddningstider/taylor_swift.png" title="Taylor Swifts webbplats, skärmavbild från slutet av november 2023">
+<figcaption>Figur 3: TaylorSwift.com [2]</figcaption> 
 </figure>
 
 
-### Färgschema:
-Det liknar ett komplementärt färgschema. Det finns dock en uppsjö av färger på sidan så även om den gula och mörkblåa är komplementära, så är inte de övriga färgerna det.
-### Typsnitt:
-* H1: Borsch (sans-serif)
-* H2-H3: Nunito sans (sans-serif)
+Stor webbplats med mycket rörlig media som tar lång tid att ladda in och överför mycket data. En sida som innehåller allt. Riktigt låga betyg i mobil-mätningen. De största förbättringsområdena som identifierats med hjälp av PageSpeed insights är att använda bättre format på bilderna (11.3 s) (serve image in next-gen formats), att använda rätt storlek på bilderna (11.2 s) (proberly size images) och att ta bort oanvänd JavaScript (7.1 s) (reduce unused JavaScript).
 
-### Profil:
-Webbplatsens färgval och typografi gör att företaget upplevs som ödmjukt och problemfritt (lätt, rent och enkelt) intryck, vilket är rimligt för ett företag som vill arbeta med mjukvaruutveckling.
+
+## Johan Rheborg
+<figure>
+<img src="%base_url%/image/laddningstider/johan_rheborg.png" title="Johan Rheborgs webbplats, skärmavbild från slutet av november 2023">
+<figcaption>Figur 4: JohanRheborg.se [3]</figcaption> 
+</figure>
+
+
+Överlag en mindre webbplats, med närapå ok betyg i de olika mätningarna. Fotografi-sidan sticker ut med hela 122 mb som laddas in automatiskt, där finns 12 fotografier som är större än 4 MB, varav 5 är större än 7 MB. De största förbättringsområdena som identifierats med hjälp av PageSpeed insights för foto-sidan är att använda bättre format på bilderna (476.7 s) (serve image in next-gen formats), att komprimera bilderna mer effektivt utan att tappa kvalitet (414.8s) (efficiently encode images) och  att använda rätt storlek på bilderna (15.4s) (properly size images).  För själva startsidan, är förbättringsområdena att använda bättre format på bilderna (6.9s) (serve image in next-gen formats), att komprimera bilderna mer effektivt utan att tappa kvalitet (2.4s) (efficiently encode images) och att ta bort resurser som hindrar sidan från att laddas (1.07s) (eliminate render-blocking resources).
+
+
+## Charlotte Kalla
+<figure>
+<img src="%base_url%/image/laddningstider/charlotte_kalla.png" title="Charlotte Kallas webbplats, skärmavbild från slutet av november 2023">
+<figcaption>Figur 5: CharlotteKalla.se [4]</figcaption> 
+</figure>
+
+
+En sida som leverar allt i ett, dvs. finns bara en sida. Betyg som spretar mellan mobil och desktop. Indikeras som ok och dåligt, beroende på användarens enhet. De största förbättringsområdena som identifierats med hjälp av PageSpeed insights är att använda bättre format på bilderna (7.9 s) (serve image in next-gen formats), att använda rätt storlek på bilderna (5.2s) (properly size images) och  att komprimera bilderna mer effektivt utan att tappa kvalitet (2.6s) (efficiently encode images). 
+
 
 # Analys
-Sidorna skapar förtroende genom deras val av typsnitt och färger. Detta trots att de inte har följt ett tydligt färgschema.
-Sidorna tycks i detta också ha som ambition att tilltala en viss målgrupp med sina färgval. Våra två första sidval, Xero och Fortnox upplevs ha en något bredare ambition i detta, och vilja tilltala en bred massa med intresse för deras tjänster. Vår sista sida, Beetroot, tycks ha en något mer nischad ingång, och en viss ambition att tilltala en kundgrupp som har ett större engagemang i exempelvis hållbarhet. Både explicit i text men också i sina jordnära, pastell-aktiga färger.
+Av de fyra URL:er som granskades för förbättringsförslag och där laddningstider och prestanda mättes visas en sammanfattning i tabellen nedan. I tabellen kan vi se att webbplatserna har många gemensamma förbättringsområden, framför allt att alla skulle behöva jobba med sina bilder, och då framför allt att gå över till modernare bildformat såsom webp och att leverera rätt storlek på bilderna.
+
+
+| Kategori | Charlotte Kalla | Johan Rheborg 1 | Johan Rheborg 2 | Taylor Swift | Summa  |
+|----------|-----------------|-----------------|-----------------|--------------|--------|
+| Serve image in next-gen formats | 7.9 s | 6.9 s | 476.7 s | 11.3 s | 502.8 s |
+| Properly size images | 5.2 s | - | 15.4 s | 11.2 s | 31.8 s |
+| Reduce unused JavaScript | - | - | - | 7.1 s | 7.1 s |
+| Efficiently encode images | 2.6 s | 2.4 s | 414.8 s | 7.1 s | 426.9 s |
+| Eliminate render-blocking resources | - | 1.07 s | - | - | 1.07 s |
+
+
 
 
 # Referenser
-* [1] (2023, November 21). Adobe Color [Online]. Tillgänglig: https://color.adobe.com/
-* [2] (2023, November 21). Beetroot [Online]. Tillgänglig: https://beetroot.se/
-* [3] (2023, November 21). Fortnox [Online]. Tillgänglig: https://www.fortnox.se/
-* [4] (2023, November 21). Xero [Online]. Tillgänglig: https://www.xero.com/
-* [5] (2023, November 22). Geotests [Online]. Tillgänglig: https://www.geotests.net/couleurs/
+* [1] (2023, November 28). Google Pagespeed [Online]. Tillgänglig: https://pagespeed.web.dev/
+* [2] (2023, November 28). Taylor Swift [Online]. Tillgänglig: https://www.taylorswift.com/
+* [3] (2023, November 28). Johan Rheborg [Online]. Tillgänglig: https://www.johanrheborg.se/
+* [4] (2023, November 28). Charlotte Kalla [Online]. Tillgänglig: https://charlotte-kalla.se/
+
 
 ## Övrigt
 Författare: Peter L,
