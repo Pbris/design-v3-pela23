@@ -57,6 +57,6 @@ Galleri
 </div>
 
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/vZDjWLwqAPY" frameborder="0" allowfullscreen></iframe>
+    <iframe title="videoFrame"> src="https://www.youtube.com/embed/vZDjWLwqAPY" frameborder="0" allowfullscreen></iframe>
 </div>
 </div>
