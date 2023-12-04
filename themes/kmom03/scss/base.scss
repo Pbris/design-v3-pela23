@@ -23,6 +23,11 @@ img {
     padding: 3em 3em 3em 0;
 }
 
+.logo img {
+    width: 100%; /* or max-width: 100%; */
+    height: auto;
+  }
+
 .title * {
     color: $font-color;
 
