@@ -21,6 +21,13 @@ img {
     filter: invert(100%);
 }
 
+.logo img {
+    border-top: 4px solid $border-bottom-color;
+    border-right: 4px solid $border-bottom-color;
+    border-bottom: 4px solid $border-bottom-color;
+}
+
+
 .title * {
     color: $font-color;
 
