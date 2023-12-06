@@ -12,7 +12,7 @@ Rapporter
 </div>
 
 <div class="box">
-    <h1><a href="%base_url%?analysis/02_load">Laddningstid</a></h1>
+    <h1><a href="%base_url%?analysis/02_load">Laddningstider och användbarhet</a></h1>
 </div>
 
 <div class="box">
