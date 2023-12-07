@@ -8,7 +8,7 @@ Om-sida
 
 Sidan använder Pico CMS för att göra om/hantera Markdown-filer så att att de presenteras som HTML i webbläsaren. I sidans template-filer används Twig för att hantera dessa.
 
-Sidan använder Soruce sans 3 för brödtext, samt Open sans för rubriker, då denna kombination tycks vedertagen.
+Sidan använder Source sans 3 för brödtext, samt Open sans för rubriker, då denna kombination tycks vedertagen.
 
 För style använder sidan SASS för att skriva CSS-koden i moduler och med variabler. 
 
