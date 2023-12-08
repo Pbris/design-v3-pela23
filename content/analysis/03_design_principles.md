@@ -118,7 +118,7 @@ Då webbplatsen ärver stor del av synliga ramen i respektive undersida är desi
 * **"Notera uppdateringarna du gör, eller väljer att inte göra."**
 
 Jag valde att inspireras av designprincipen asymmetrisk “balance” från Rheborgs fotografisida, genom att skapa ett grid på min rapportsida som jag upplever har denna princip, genom att sprida ut elementen men att göra detta med en viktbalans. Förutom detta inspirerades jag även av Rheborgs fotografi-sida ytterligare och valde att implementera “framing” på min logotyp för webbplatsen.  
-I en tredje uppdatering blev jag främst inspirerad av från Taylor Swifts undersida “Dates”, där en känsla av djup skapas i flera bilder. Främst en bild med en tändare som skapar skugga på Swifts ansikte. Jag implementerade därav även “depth” på min logotyp genom en transparent skugga, vilket jag tyckte lyfte sidan bort från enkom tvådimensionell framtoning.
+I en tredje uppdatering blev jag främst inspirerad av från Taylor Swifts undersida “Dates”, där en känsla av djup skapas i flera bilder. Främst en bild med en tändare som skapar skugga på Swifts ansikte. Jag implementerade därav även “depth” på min logotyp genom en transparent skugga i ljust läge, och en vit skugga i mörkt läge. Något jag tyckte lyfte sidan bort från enkom tvådimensionell framtoning.
 
 
 
